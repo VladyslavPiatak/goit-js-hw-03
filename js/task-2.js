@@ -4,6 +4,7 @@ function makeArray(firstArray, secondArray, maxLength) {
     if (concatArr.length >= maxLength) {
         return concatArr.slice(0, maxLength);
     }
+    return concatArr;
 }
 
 console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3)); // ["Mango", "Poly", "Ajax"]
